@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Ezyride</string>
+
+    <string name="title">Ezyride</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_editprofile">Edit Profile</string>
+    <string name="nav_item_myride">My Ride</string>
+    <string name="nav_item_wallet">Wallet</string>
+    <string name="nav_item_aboutus">About Us</string>
+    <string name="nav_item_support">Support</string>
+    <string name="nav_item_howitworks">How it works</string>
+    <string name="nav_item_privacypolicy">Privacy Policy</string>
+    <string name="nav_item_messages">Messages</string>
+
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_editprofile</item>
+        <item>@string/nav_item_myride</item>
+        <item>@string/nav_item_wallet</item>
+        <item>@string/nav_item_aboutus</item>
+        <item>@string/nav_item_support</item>
+        <item>@string/nav_item_howitworks</item>
+        <item>@string/nav_item_privacypolicy</item>
+        <item>@string/nav_item_messages</item>
+    </string-array>
+
+    <string name="title_editprofile">Edit Profile</string>
+    <string name="title_myride">My Ride</string>
+    <string name="title_wallet">Wallet</string>
+    <string name="title_aboutus">About Us</string>
+    <string name="title_support">Support</string>
+    <string name="title_howitworks">How it works</string>
+    <string name="title_privacypolicy">Privacy Policy</string>
+    <string name="title_messages">Messages</string>
+
+    <integer-array name="nav_icon">
+        <item>@drawable/profile</item>
+        <item>@drawable/profile</item>
+        <item>@drawable/profile</item>
+        <item>@drawable/profile</item>
+        <item>@drawable/profile</item>
+        <item>@drawable/profile</item>
+        <item>@drawable/profile</item>
+        <item>@drawable/profile</item>
+    </integer-array>
+
+    <string name="android_names">Existing Car</string>
+    <string name="android_codes">Add new car</string>
+
+
+    <string name="copyright">version&#160;<b>1.4.0</b>\nby&#160;<b>kyleduo</b></string>
+    <string name="license">Apache License 2.0</string>
+
+    <!-- style title -->
+    <string name="style_default">Default Style</string>
+    <string name="style_text">With Status Text</string>
+    <string name="style_nofade">Default Style without background fade effect.</string>
+    <string name="style_tint_color">Custom by tint color</string>
+    <string name="style_custom">Custom Style</string>
+    <string name="style_flyme">Flyme5 Style</string>
+    <string name="style_miui">MIUI7 Style</string>
+    <string name="style_md_ios">Material Design &#038; iOS Style</string>
+    <string name="style_disable">Disable state</string>
+    <string name="style_disable_opt">Toggle the others\' enable state</string>
+    <string name="enable_title">enable/disable other SwitchButtons</string>
+
+    <!-- use title -->
+    <string name="use_listener">Work with listener</string>
+    <string name="use_delay">Work with delay</string>
+    <string name="use_check_in_check">call setChecked(boolean)/setCheckedImmediately(boolean) in OnCheckedChangeListener\nIf the second SwitchButton is checked, the first one was "locked" to checked state.</string>
+    <string name="use_listener_finish">You did it!</string>
+    <string name="use_long">work with stuff takes long</string>
+    <string name="use_long_hint">Click "Start" button to kick it off.</string>
+    <string name="use_long_finish">Click "Start" button to kick it off.</string>
+    <string name="use_toggle">2 ways to TOGGLE</string>
+    <string name="use_checked">2 ways to SET_CHECKED</string>
+    <string name="toggle_animated">toggle();</string>
+    <string name="toggle_not_animated">toggleImmediately();</string>
+    <string name="checked_animated">setChecked(boolean);</string>
+    <string name="checked_not_animated">setCheckedImmediately(boolean);</string>
+    <string name="bt_start">Start</string>
+
+    <style name="style_in_code">Change properties in code.</style>
+
+    <!-- menu -->
+    <string name="action_github">view in github</string>
+    <string name="action_blog">my blog</string>
+
+    <!-- contents -->
+    <string-array name="contents">
+        <item>@string/title_activity_style</item>
+        <item>@string/title_activity_style_in_code</item>
+        <item>@string/title_activity_use</item>
+        <item>@string/title_activity_recycler_view</item>
+        <item>@string/copyright</item>
+        <item>@string/license</item>
+    </string-array>
+
+    <string name="title_activity_style">Style in xml</string>
+    <string name="title_activity_use">Easy to use</string>
+    <string name="title_activity_style_in_code">Style in code</string>
+    <string name="title_activity_recycler_view">Used in RecyclerView</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
